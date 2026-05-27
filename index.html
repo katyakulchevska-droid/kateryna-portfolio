@@ -379,9 +379,10 @@
       border-radius: 24px;
       padding: 44px 44px 44px 44px;
       display: grid;
-      grid-template-columns: 1fr 380px;
+      grid-template-columns: 400px 1fr;
       gap: 40px;
       align-items: center;
+      overflow: visible;
     }
 
     .proj-cat {
@@ -445,15 +446,10 @@
     }
 
     .proj-preview {
-      height: 240px;
+      aspect-ratio: 725 / 460;
       border-radius: 16px;
       background: #DCDCEF;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #aaa;
-      font-size: 13px;
-      overflow: hidden;
+      overflow: visible;
       position: relative;
     }
 
@@ -1025,11 +1021,10 @@
           <span class="btn-arrow">↗</span>
         </button>
       </div>
-      <div class="proj-preview" style="background:#EAE8F5;overflow:hidden;position:relative;">
-        <img src="images/kids3.png" style="position:absolute;left:41.8%;top:5.2%;width:29%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));">
-        <img src="images/kids2.png" style="position:absolute;left:69.9%;top:4.3%;width:30.2%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));">
-        <img src="images/kids1.png" style="position:absolute;left:12.4%;top:19.8%;width:32.6%;transform:rotate(10deg);transform-origin:center top;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));">
-      </div>
+      <div class="proj-preview" style="background:#EAE8F5;"></div>
+      <img src="images/kids3.png" style="position:absolute;left:64.5%;top:5.2%;width:17.6%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));pointer-events:none;">
+      <img src="images/kids2.png" style="position:absolute;left:81.7%;top:4.3%;width:18.4%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));pointer-events:none;">
+      <img src="images/kids1.png" style="position:absolute;left:46.6%;top:19.8%;width:19.8%;transform:rotate(10deg);transform-origin:center top;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));pointer-events:none;">
     </div>
 
     <!-- Project 2 -->
@@ -1046,10 +1041,9 @@
           <span class="btn-arrow">↗</span>
         </button>
       </div>
-      <div class="proj-preview" style="background:#F0EEF8;overflow:hidden;position:relative;">
-        <img src="images/saas2.png" style="position:absolute;left:35.3%;top:3%;width:62.5%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));">
-        <img src="images/saas1.png" style="position:absolute;left:16.6%;top:23.7%;width:62.5%;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));">
-      </div>
+      <div class="proj-preview" style="background:#F0EEF8;"></div>
+      <img src="images/saas2.png" style="position:absolute;left:60.6%;top:3%;width:38.1%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));pointer-events:none;">
+      <img src="images/saas1.png" style="position:absolute;left:49.2%;top:23.7%;width:38.1%;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));pointer-events:none;">
     </div>
 
     <!-- Project 3 -->
@@ -1066,11 +1060,10 @@
           <span class="btn-arrow">↗</span>
         </button>
       </div>
-      <div class="proj-preview" style="background:#EAF4EE;overflow:hidden;position:relative;">
-        <img src="images/kma3.png" style="position:absolute;left:20%;top:8.7%;width:66.6%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));">
-        <img src="images/kma2.png" style="position:absolute;left:50.6%;top:21.1%;width:20.6%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18));">
-        <img src="images/kma1.png" style="position:absolute;left:75.2%;top:21.1%;width:20.6%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18));">
-      </div>
+      <div class="proj-preview" style="background:#EAF4EE;"></div>
+      <img src="images/kma3.png" style="position:absolute;left:51.3%;top:8.7%;width:40.6%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));pointer-events:none;">
+      <img src="images/kma2.png" style="position:absolute;left:69.9%;top:21.1%;width:12.5%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18));pointer-events:none;">
+      <img src="images/kma1.png" style="position:absolute;left:84.9%;top:21.1%;width:12.5%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18));pointer-events:none;">
     </div>
 
     <!-- Project 4 -->
@@ -1087,10 +1080,9 @@
           <span class="btn-arrow">↗</span>
         </button>
       </div>
-      <div class="proj-preview" style="background:#E8F2FF;overflow:hidden;position:relative;">
-        <img src="images/health1.png" style="position:absolute;left:47.4%;top:6.7%;width:58.1%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));">
-        <img src="images/health2.png" style="position:absolute;left:30.8%;top:43.3%;width:48.4%;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));">
-      </div>
+      <div class="proj-preview" style="background:#E8F2FF;"></div>
+      <img src="images/health1.png" style="position:absolute;left:68%;top:6.7%;width:35.4%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));pointer-events:none;">
+      <img src="images/health2.png" style="position:absolute;left:57.8%;top:43.3%;width:29.5%;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));pointer-events:none;">
     </div>
 
   </div>
