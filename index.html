@@ -447,7 +447,9 @@
     }
 
     .proj-preview {
-      /* spacer for grid layout — no visible background */
+      /* invisible spacer — forces card to Figma aspect ratio */
+      aspect-ratio: 725 / 460;
+      overflow: visible;
     }
 
     .proj-preview-inner {
@@ -1019,9 +1021,9 @@
         </button>
       </div>
       <div class="proj-preview"></div>
-      <img src="images/kids3.png" style="position:absolute;left:64.5%;top:5.2%;width:17.6%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));pointer-events:none;">
-      <img src="images/kids2.png" style="position:absolute;left:81.7%;top:4.3%;width:18.4%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));pointer-events:none;">
-      <img src="images/kids1.png" style="position:absolute;left:46.6%;top:19.8%;width:19.8%;transform:rotate(10deg);transform-origin:center top;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));pointer-events:none;">
+      <img src="images/kids3.png" style="position:absolute;left:64.5%;top:5.2%;width:17.6%;box-shadow:0 8px 24px rgba(0,0,0,.15);border-radius:16px;pointer-events:none;">
+      <img src="images/kids2.png" style="position:absolute;left:81.7%;top:4.3%;width:18.4%;box-shadow:0 8px 24px rgba(0,0,0,.15);border-radius:16px;pointer-events:none;">
+      <img src="images/kids1.png" style="position:absolute;left:46.6%;top:19.8%;width:19.8%;box-shadow:0 12px 32px rgba(0,0,0,.2);border-radius:16px;pointer-events:none;">
     </div>
 
     <!-- Project 2 -->
