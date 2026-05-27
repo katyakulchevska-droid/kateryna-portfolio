@@ -379,7 +379,7 @@
       border-radius: 24px;
       padding: 44px 44px 44px 44px;
       display: grid;
-      grid-template-columns: 400px 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 40px;
       align-items: center;
       position: relative;
@@ -447,8 +447,9 @@
     }
 
     .proj-preview {
-      /* invisible spacer — forces card to Figma aspect ratio */
-      aspect-ratio: 725 / 460;
+      /* preview column — matches Figma preview area (605×460px) */
+      aspect-ratio: 605 / 460;
+      position: relative;
       overflow: visible;
     }
 
@@ -1020,10 +1021,11 @@
           <span class="btn-arrow">↗</span>
         </button>
       </div>
-      <div class="proj-preview"></div>
-      <img src="images/kids3.png" style="position:absolute;left:64.5%;top:5.2%;width:17.6%;box-shadow:0 8px 24px rgba(0,0,0,.15);border-radius:16px;pointer-events:none;">
-      <img src="images/kids2.png" style="position:absolute;left:81.7%;top:4.3%;width:18.4%;box-shadow:0 8px 24px rgba(0,0,0,.15);border-radius:16px;pointer-events:none;">
-      <img src="images/kids1.png" style="position:absolute;left:46.6%;top:19.8%;width:19.8%;box-shadow:0 12px 32px rgba(0,0,0,.2);border-radius:16px;pointer-events:none;">
+      <div class="proj-preview">
+        <img src="images/kids3.png" style="position:absolute;left:30.2%;top:5.2%;width:34.7%;box-shadow:0 8px 24px rgba(0,0,0,.15);border-radius:16px;pointer-events:none;">
+        <img src="images/kids2.png" style="position:absolute;left:64.0%;top:4.3%;width:36.2%;box-shadow:0 8px 24px rgba(0,0,0,.15);border-radius:16px;pointer-events:none;">
+        <img src="images/kids1.png" style="position:absolute;left:-5.0%;top:19.8%;width:39.0%;box-shadow:0 12px 32px rgba(0,0,0,.2);border-radius:16px;pointer-events:none;">
+      </div>
     </div>
 
     <!-- Project 2 -->
@@ -1040,9 +1042,10 @@
           <span class="btn-arrow">↗</span>
         </button>
       </div>
-      <div class="proj-preview"></div>
-      <img src="images/saas2.png" style="position:absolute;left:60.6%;top:3%;width:38.1%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));pointer-events:none;">
-      <img src="images/saas1.png" style="position:absolute;left:49.2%;top:23.7%;width:38.1%;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));pointer-events:none;">
+      <div class="proj-preview">
+        <img src="images/saas2.png" style="position:absolute;left:22.5%;top:3.0%;width:74.9%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15));pointer-events:none;">
+        <img src="images/saas1.png" style="position:absolute;left:0%;top:23.7%;width:74.9%;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));pointer-events:none;">
+      </div>
     </div>
 
     <!-- Project 3 -->
@@ -1059,10 +1062,11 @@
           <span class="btn-arrow">↗</span>
         </button>
       </div>
-      <div class="proj-preview"></div>
-      <img src="images/kma3.png" style="position:absolute;left:51.3%;top:8.7%;width:40.6%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));pointer-events:none;">
-      <img src="images/kma2.png" style="position:absolute;left:69.9%;top:21.1%;width:12.5%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18));pointer-events:none;">
-      <img src="images/kma1.png" style="position:absolute;left:84.9%;top:21.1%;width:12.5%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18));pointer-events:none;">
+      <div class="proj-preview">
+        <img src="images/kma3.png" style="position:absolute;left:4.1%;top:8.7%;width:79.8%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));pointer-events:none;">
+        <img src="images/kma2.png" style="position:absolute;left:40.8%;top:21.1%;width:24.6%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18));pointer-events:none;">
+        <img src="images/kma1.png" style="position:absolute;left:70.2%;top:21.1%;width:24.6%;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18));pointer-events:none;">
+      </div>
     </div>
 
     <!-- Project 4 -->
@@ -1079,9 +1083,10 @@
           <span class="btn-arrow">↗</span>
         </button>
       </div>
-      <div class="proj-preview"></div>
-      <img src="images/health1.png" style="position:absolute;left:68%;top:6.7%;width:35.4%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));pointer-events:none;">
-      <img src="images/health2.png" style="position:absolute;left:57.8%;top:43.3%;width:29.5%;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));pointer-events:none;">
+      <div class="proj-preview">
+        <img src="images/health1.png" style="position:absolute;left:37.0%;top:6.7%;width:69.6%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.15));pointer-events:none;">
+        <img src="images/health2.png" style="position:absolute;left:17.0%;top:43.3%;width:58.0%;filter:drop-shadow(0 12px 32px rgba(0,0,0,.2));pointer-events:none;">
+      </div>
     </div>
 
   </div>
